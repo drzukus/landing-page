@@ -85,12 +85,13 @@ input[type=button] {
     font-size: 36px;
     font-weight: 600;
     color: #1F2937;
+    margin: 50px;
 }
 
 .info-and-pics {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+    margin: 100px 200px;
 }
 
 .info img {
@@ -99,4 +100,73 @@ input[type=button] {
 
 .info div {
     color: grey;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.quoter {
+    display: flex;
+    justify-content: right;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    border-radius: 10px;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta, .cta-secondary {
+    color: white;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cta-secondary {
+    font-weight: 300;
+}
+
+.cta-right input {
+    border-color: white;
+    border-width: 2px;
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: #E5E7EB;
+    font-weight: 100;
+    font-size: 18px;
 }
